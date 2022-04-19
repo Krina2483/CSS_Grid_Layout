@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>14th</title>
+	<style type="text/css">
+	.maindiv{
+		width: 95%;
+		position: relative;
+		top: 20px;
+		left: 20px;
+		border: 1px solid gray;
+		padding: 10px;
+
+		display: grid;
+		grid-template-rows: 100px 260px 80px;
+		grid-template-columns: 130px 1fr 100px;
+		grid-gap: 10px;
+		box-shadow: 15px 15px 7px gray;
+	}
+
+	.div1{
+		background-color: yellow;
+		padding: 20px;
+		grid-column: 1/-1;
+		text-align: left;
+	}
+
+	.div2{
+		background-color: yellow;
+		padding: 20px;
+		grid-row: 2/4;
+		text-align: left;
+	}
+
+	.div3{
+		background-color: yellow;
+		padding: 20px;
+		text-align: left;
+	}
+
+	.div4{
+		background-color: yellow;
+		padding: 20px;
+		text-align: left;
+	}
+
+	.div5{
+		background-color: yellow;
+		padding: 20px;
+		grid-column: 2/4;
+		text-align: left;
+	}
+</style>
+</head>
+<body>
+	<h1 align="center">Grid Layout 1</h1>
+	<div class="maindiv" align="center">
+		<div class="div1">Header</div>
+		<div class="div2">Nav</div>
+		<div class="div3">Article</div>
+		<div class="div4">Ads</div>
+		<div class="div5">Footer</div>
+	</div>
+</body>
+</html>
